@@ -17,7 +17,7 @@ import {
 
   import pic from './assets/extraordinary-laptop.jpg'
 
-export default class ColorList extends Component {
+export default class HelloWorld extends Component {
 
     constructor(){
       super()
@@ -86,7 +86,7 @@ export default class ColorList extends Component {
     }
   })
 
-AppRegistry.registerComponent('ColorList', () => HelloWorld);
+AppRegistry.registerComponent('HelloWorld', () => HelloWorld);
 
 
         // <Text style={styles.button}
